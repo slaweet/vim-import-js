@@ -33,6 +33,9 @@ Mapping     | Command               | Description
 `<Leader>i` | `:ImportJSFix`        | Import any missing modules and remove any modules that are not used.
 `<Leader>g` | `:ImportJSGoto`       | Go to the module of the variable under the cursor.
 
+## Configuration
+For `import-js` configuration see https://github.com/Galooshi/import-js#configuration
+
 ## Troubleshooting
 
 If you run into issues when using the plugin, adding some logging can help.
@@ -43,3 +46,4 @@ After starting up vim, and before you've imported anything, run this command:
 ```
 
 After this, you should get useful information in `channel_log.txt`.
+
